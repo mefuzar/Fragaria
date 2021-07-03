@@ -23,11 +23,11 @@
 #ifndef UREGEX_H
 #define UREGEX_H
 
-#include "unicode/utypes.h"
+#include "icu/unicode/utypes.h"
 
 #if !UCONFIG_NO_REGULAR_EXPRESSIONS
 
-#include "unicode/parseerr.h"
+#include "icu/unicode/parseerr.h"
 
 #ifndef U_HIDE_DRAFT_API
 
