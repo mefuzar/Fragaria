@@ -366,6 +366,6 @@ typedef int32_t UChar32;
 #   define U_INLINE
 #endif
 
-#include "unicode/urename.h"
+#include "urename.h"
 
 #endif
