@@ -37,7 +37,7 @@
 /** source/tools/genren/genren.pl - use this script according to the README   */
 /**                    in that folder                                         */
 
-#include "unicode/umachine.h"
+#include "umachine.h"
 
 /** The standard copyright notice that gets compiled into each library. 
  *  This value will change in the subsequent releases of ICU
