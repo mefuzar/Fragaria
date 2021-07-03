@@ -25,8 +25,8 @@ typedef struct URegularExpression URegularExpression;
 #define U_HIDE_DRAFT_API 1
 #define U_DISABLE_RENAMING 1
 
-#import <unicode/uregex.h>
-#import <unicode/ustring.h>
+#import "icu/unicode/uregex.h"
+#import "icu/unicode/ustring.h"
 
 unsigned const ICUCaseInsensitiveMatching = UREGEX_CASE_INSENSITIVE;
 unsigned const ICUComments = UREGEX_COMMENTS;
