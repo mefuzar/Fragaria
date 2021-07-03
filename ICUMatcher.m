@@ -23,8 +23,8 @@ typedef struct URegularExpression URegularExpression;
 #define U_HIDE_DRAFT_API 1
 #define U_DISABLE_RENAMING 1
 
-#import <unicode/uregex.h>
-#import <unicode/ustring.h>
+#import "icu/unicode/uregex.h"
+#import "icu/unicode/ustring.h"
 
 #define CheckStatus(status) 	if(U_FAILURE(status)) { [NSException raise:@"Find Exception" format:@"%s", u_errorName(status)]; }
 
