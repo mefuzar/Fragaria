@@ -33,21 +33,21 @@
 #define UTYPES_H
 
 
-#include "unicode/umachine.h"
-#include "unicode/utf.h"
-#include "unicode/uversion.h"
-#include "unicode/uconfig.h"
+#include "umachine.h"
+#include "utf.h"
+#include "uversion.h"
+#include "uconfig.h"
 
 #ifdef U_HIDE_DRAFT_API
-#include "unicode/udraft.h"
+#include "udraft.h"
 #endif
 
 #ifdef U_HIDE_DEPRECATED_API
-#include "unicode/udeprctd.h"
+#include "udeprctd.h"
 #endif
 
 #ifdef U_HIDE_DEPRECATED_API
-#include "unicode/uobslete.h"
+#include "uobslete.h"
 #endif
 
 
