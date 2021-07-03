@@ -24,7 +24,7 @@
  * @see UCharIterator
  */
 
-#include "unicode/utypes.h"
+#include "utypes.h"
 
 #ifdef XP_CPLUSPLUS
     U_NAMESPACE_BEGIN
